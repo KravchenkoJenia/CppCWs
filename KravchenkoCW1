@@ -1,0 +1,48 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+int main()
+{
+float x =0.0001;
+double x1 =0.0001;
+long double x2 =0.0001;
+printf("x=%f\n",x);
+printf("x1=%lf\n",x1);
+printf("x2=%Lf\n",x2);
+
+float y = 24.33e5; 
+double y1 =24.33e5;
+long double y2 =24.33e5;
+printf("y=%f\n",y);
+printf("y1=%lf\n",y1);
+printf("y2=%Lf\n",y2);
+
+float u = M_PI;
+double u1 =M_PI;
+long double u2 =M_PI;
+printf("u=%f\n",u);
+printf("u1=%lf\n",u1);
+printf("u2=%Lf\n",u2);
+
+float v = M_E;
+double v1 =M_E;
+long double v2 =M_E;
+printf("v=%f\n",v);
+printf("v1=%lf\n",v1);
+printf("v2=%Lf\n",v2);
+
+float a = sqrt(5);
+double a1 =sqrt(5);
+long double a2 =sqrt(5);
+printf("a=%f\n",a);
+printf("a1=%lf\n",a1);
+printf("a2=%Lf\n",a2);
+
+float b = ln(100);
+double b1 =ln(100);
+long double b2 =ln(100);
+printf("b=%f\n",b);
+printf("b1=%lf\n",b1);
+printf("b2=%Lf\n",b2);
+return 0;
+}
